@@ -16,5 +16,5 @@ df = pd.read_excel ('Book2.xlsx')
 
 df.groupby("RiskGrade")["AnnualSales"].sum()
 
-df.to_excel('./test_result1.xlsx')
+df.to_excel('./test_result.xlsx')
 
